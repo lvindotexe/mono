@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sst bind astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "sst:deploy": "sst deploy",
+    "sst:dev": "sst dev"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.4.1",
+    "astro": "^4.3.3",
+    "package": "workspace:^",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "astro-sst": "^2.40.1",
+    "aws-cdk-lib": "2.124.0",
+    "constructs": "10.3.0",
+    "sst": "^2.40.1"
+  }
+}
